@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="دليل فعاليات الشرقية">
+    <meta name="description" content="تواصل مع دليل فعاليات الشرقية">
+    <title>التواصل معنا - دليل فعاليات الشرقية</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/animations.css">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="../index.html" class="navbar-brand">دليل فعاليات الشرقية</a>
+        <ul class="navbar-nav">
+            <li><a href="../index.html">الصفحة الرئيسية</a></li>
+            <li><a href="events.html">الفعاليات</a></li>
+            <li><a href="about.html">من نحن</a></li>
+            <li><a href="contact.html" class="active">التواصل معنا</a></li>
+        </ul>
+    </nav>
+
+    <section class="hero-small">
+        <div class="hero-content">
+            <h1 class="hero-title">التواصل معنا</h1>
+            <p class="hero-subtitle">نحن هنا للإجابة على استفساراتك</p>
+        </div>
+    </section>
+
+    <section class="section bg-light fade-in">
+        <form id="contact-form" class="form-max">
+            <div class="form-group">
+                <label for="contact-name">الاسم</label>
+                <input type="text" id="contact-name" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label for="contact-email">البريد الإلكتروني</label>
+                <input type="email" id="contact-email" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label for="contact-subject">الموضوع</label>
+                <input type="text" id="contact-subject" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label for="contact-message">الرسالة</label>
+                <textarea id="contact-message" class="form-control" required></textarea>
+            </div>
+            <button type="submit" class="btn-primary btn-block">إرسال</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>جميع الحقوق محفوظة 2026 - دليل فعاليات الشرقية</p>
+    </footer>
+
+    <script src="../js/main.js"></script>
+    <script src="../js/booking.js"></script>
+</body>
+</html>
